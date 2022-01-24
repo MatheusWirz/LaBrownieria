@@ -18,10 +18,10 @@
 	define('INCLUDE_PATH_PAINEL',INCLUDE_PATH.'admin/');
 	define('BASE_DIR_PAINEL',__DIR__.'/admin');
 	//conectar ao banco de dados
-	define('HOST','localhost');
-	define('DATABASE','labrownieriabd');
-	define('USER','root');
-	define('PASSWORD','');
+	define('HOST','***');
+	define('DATABASE','***');
+	define('USER','***');
+	define('PASSWORD','***');
 
 
 	$configs = Painel::select('tb_site.config');
